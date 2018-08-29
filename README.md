@@ -3,7 +3,7 @@ to FreeIPA web interface.
 ```
 
 ./setup-le.sh -d|--distro (Ubuntu|Debian|Centos|Rhel) [-f|--firsttime] [-h|--help]
-./renew-le.sh  $0 -d|--distro (Ubuntu|Debian|Centos|Rhel)  [-h|--help]
+./renew-le.sh -d|--distro (Ubuntu|Debian|Centos|Rhel)  [-h|--help]
 
 ```
 To use it, do this:
