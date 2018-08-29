@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-EMAIL="martin@devsed.se"
+EMAIL=""
 set -o nounset -o errexit
 FIRSTTIME=false
 HELP=false

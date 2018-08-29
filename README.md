@@ -1,8 +1,13 @@
 These two scripts try to automatically obtain and install Let's Encrypt certs
 to FreeIPA web interface.
+```
 
+./setup-le.sh -d|--distro (Ubuntu|Debian|Centos|Rhel) [-f|--firsttime] [-h|--help]
+./renew-le.sh  $0 -d|--distro (Ubuntu|Debian|Centos|Rhel)  [-h|--help]
+
+```
 To use it, do this:
-* BACKUP /etc/httpd/alias to some safe place (it contains private keys!)
+* BACKUP /etc/httpd/alias or /etc/apache2/nssdb to some safe place (it contains private keys!)
 * clone/unpack all scripts including "ca" subdirectory somewhere
 * set WORKDIR and EMAIL variables in scripts setup-le.sh and renew-le.sh
 * run setup-le.sh script once to prepare the machine. The script will:
